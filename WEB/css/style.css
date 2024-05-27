@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 40px 0px;
+}
+
+.header-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-nav__links {
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.header-search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-search input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(127, 114, 210, 0.5), rgba(127, 114, 210, 0.5)), url("https://i.pinimg.com/originals/63/fb/4a/63fb4a40107482a0b256664f6bd09210.png");
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 113px;
+}
+
+.hero {
+display: flex;
+}
+
+/* Hero content */
+.hero-content {
+width: 530px;
+height: 340px;
+}
+
+.hero-content-title {
+font-weight: 700;
+font-size: 50px;
+line-height: 1.4;
+margin-top: 0;
+margin-bottom: 40px;
+}
+
+.hero-content-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+margin-top: 0;
+margin-bottom: 64px;
+}
+
+.hero-arrow {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.hero-arrow-text {
+font-weight: 700;
+text-transform: uppercase;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0.1em;
+}
+
+.hero-arrow-action {
+display: block;
+}
+
+.hero-arrow-action img {
+display: block;
+}
+
+
+/* Hero cards  */
+
+.hero-cards {
+display: flex;
+gap: 24px;
+width: 640px;
+height: 530px;
+flex-wrap: wrap;
+
+}
+
+.hero-card {
+width: 306px;
+height: 250px;
+background-color: #5DB7DE;
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.hero-card-heading {
+font-weight: 700;
+font-size: 13px;
+line-height: 140%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.hero-card-text {
+font-weight: 700;
+font-size: 19px;
+line-height: 140%;
+}
